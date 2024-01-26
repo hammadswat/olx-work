@@ -1,0 +1,63 @@
+
+/* Make the slider container responsive */
+
+/* for laptop */
+
+.slider {
+    width: 80%;
+    max-width: 100%;
+ 
+
+    
+  }
+  .slider-pic{
+    margin-top: 15px;
+  }
+  
+  /* Make the images inside the slider responsive */
+  .slider-pic img {
+    width: 95%;
+    height: 250px;
+    margin-left: 3%;
+  }
+  
+
+
+ /* for tablet */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .slider {
+      width: 70%;
+      height: 5%;
+    }
+
+    .slider-pic img {
+        width: 90%;
+        height: 150px;
+        margin-left: 5%;
+      }
+  }
+  
+
+ /* for mobile */
+  @media (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    .slider {
+        width: 70%;
+        height: 5%;
+    }
+
+    .slider-pic img {
+        width: 90%;
+        height: 100px;
+        margin-left: 18px;
+      }
+
+  }
+
+
+
+
+
+
+

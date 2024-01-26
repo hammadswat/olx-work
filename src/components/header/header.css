@@ -1,0 +1,88 @@
+#sec-nabr-ul{
+  margin-top:px;
+  
+  }
+
+  #list-menu{
+ 
+  }
+  
+  #loca-form{
+    height: 45px;
+    border: 1px solid blue;
+    
+  }
+.ser-inpt{
+  margin: 10px 0px;
+  height: 50px;
+
+}
+.hhh{
+ margin-top: -5px;
+}
+.ser-form{
+  margin: 0px 0px ;
+  height: 43px;
+  border-radius: 6px 0px 0px 6px;
+  border: 1px solid blue;
+}
+
+  #sear-btn{
+    border-radius: 0px 10px 10px 0px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border: 1px solid blue;
+   
+    
+  
+  }
+
+
+  #log-post-btns{
+    display: flex;
+    
+    width: 180px;
+    margin-left: 5px;
+  }
+
+
+  #btn{
+    text-align: center;
+    font-weight: 900;
+    width: 90px;
+    height: 40px;
+    border: 6px solid;
+    border-radius: 20px;
+    border-color: blue yellow green;
+  }
+
+
+  a{
+    text-decoration: none;
+    color: blue;
+  }
+
+  
+
+.fot-er{
+  background-color: #ebeeef;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
