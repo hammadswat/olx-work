@@ -50,7 +50,7 @@ function Detail() {
 
 
 
-      <div className="container-fluid mt-5 " style={{ backgroundColor: '#f7f8f8' }}>
+      <div className="container-fluid mt-5 ">
         <div className="row d-flex slid" >
 
           <div className="col-12 col-md-8 mt-4   " >
@@ -89,7 +89,7 @@ function Detail() {
 
 
 
-            <div className="col-12 mt-4 h-6 p-4 d-flex" style={{ border: "1px solid black" }} >
+            <div className="col-12 mt-4 h-6 p-4 d-flex border border-black rounded-top rounded-bottom "  >
 
               <div className="col-9 col-md-11 " >
                 <h1 className="d1">{"RS " + adDetails.amount}</h1>
@@ -105,7 +105,7 @@ function Detail() {
             </div>
 
 
-            <div className="col-12 mt-4 h-6 p-3" style={{ border: "1px solid black" }}>
+            <div className="col-12 mt-4 h-6 p-3 border border-black rounded-top rounded-bottom rounded-top rounded-bottom" >
 
               <h3>{"Details"}</h3>
 
@@ -135,12 +135,12 @@ function Detail() {
                   <p>
                     {"New"}</p><br />
                   <p>
-                    {"Male"}</p>
+                    {"M/F"}</p>
 
                 </div>
               </div></div>
 
-            <div className="col-12 mt-4 p-3"style={{ border: "1px solid black" }} >
+            <div className="col-12 mt-4 p-3 border border-black rounded-top rounded-bottom" >
               <h1>{"Description"}</h1>
               <p>{adDetails.description}</p>
 
@@ -157,23 +157,23 @@ function Detail() {
 
               <div className="me-3" >
                 <h5>{email}</h5>
-                <h6>{email}</h6>
-                <h5>{email}</h5>
+                <p>{"member since 2022"}</p>
+                <h5>{"See profile >"}</h5>
               </div>
 
             </div>
 
             <div className="col-12 mt-2 phone b-rad" >
-              <img style={{ width: "60px"}} src="https://cdn-icons-png.flaticon.com/128/6596/6596115.png" /> Show phone num
+              <img style={{ width: "60px"}} src="https://cdn-icons-png.flaticon.com/128/6596/6596115.png" alt="phone" /> Show phone num
 
             </div>
 
-            <div className="col-12 mt-3 chat b-rad" style={{ border: "1px solid " }}>
-              <img style={{ width: "30px"}} src="https://cdn-icons-png.flaticon.com/128/2076/2076218.png" /> Chat
+            <div className="col-12 mt-3 chat b-rad border border-black rounded-top rounded-bottom" >
+              <img style={{ width: "30px"}} src="https://cdn-icons-png.flaticon.com/128/2076/2076218.png" alt="chat"/> Chat
               
             </div>
 </div>
-            <div className="col-12 mt-3 p-2 loca b-rad" style={{ border: "1px solid black" }}>
+            <div className="col-12 mt-3 p-2 loca b-rad border border-black rounded-top rounded-bottom" >
               <h1>Loction</h1>
               <h6><img style={{ width: "25px" }} src="https://cdn-icons-png.flaticon.com/128/592/592243.png" alt="location" />Pakistan , Kaarchi</h6>
             </div>

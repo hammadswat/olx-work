@@ -9,6 +9,11 @@ const router = createBrowserRouter([
 
   {
     path: "/",
+    element: <Dashboard />,
+  },
+
+  {
+    path: "/Rrgister",
     element: <Register />,
   },
 
@@ -16,17 +21,14 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
-    {
-      path: "/Dashboard",
-      element: <Dashboard />,
-    },
+    
     {
       path: "/postadd",
       element: <Postadd />,
     },
 
     {
-      path: "/Dashboard/detail/:id",
+      path: "/detail/:id",
       element: <Detail />,
     },
   ]);

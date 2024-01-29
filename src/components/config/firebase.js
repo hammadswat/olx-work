@@ -62,6 +62,7 @@ export async function postAdToDb(ad) {
 
     await addDoc(collection(db, "ads"), ad)
     alert('Data added successfully!')
+    
 
   } catch (e) {
     console.log(e.message)

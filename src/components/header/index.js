@@ -34,10 +34,10 @@ export function Header() {
 
       <div className="row sec-nabr " style={{ backgroundColor: '#f7f8f8', padding: "10px 25px" }}>
         <div className="col-3 pt-1 col-md-1 "><img style={{ width: "40px", borderRadius: "50%" }} className="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/4/42/OLX_New_Logo.png" alt="icon" /></div>
-        <div className="col-3 col-md-1 pt-1">
+        <div className="col-4 col-md-1 pt-1">
           <img src="https://cdn-icons-png.flaticon.com/128/89/89102.png" width={"23px"} alt="" />
           Motors</div>
-        <div className="col-3 col-md-9 pt-1">
+        <div className="col-5 col-md-9 pt-1">
           <img width={'23px'} className="img-fluid" src="https://cdn-icons-png.flaticon.com/128/4095/4095563.png" alt="" />Property</div>
 
       </div>
@@ -75,19 +75,20 @@ export function Header() {
                   </form>
                 </li>
 
-                <li className="nav-item col-10 col-md-5 col-lg-6 me-2">
+                <li className="nav-item col-10 col-md-5 col-lg-5 me-4">
                   <form action="" className="d-flex">
                     <div className="input-group ser-inpt">
                       <input className="form-control form-control-md ser-form" type="search" placeholder="find car mobile phone and more" aria-label="Search" />
                       <button className="btn btn-outline-secondary" type="submit" id="sear-btn">
-                        <img style={{ width: "25px", height: "20px" }} src="https://cdn-icons-png.flaticon.com/128/149/149852.png" alt="search" /></button>
+                        <img style={{ width: "20px", height: "20px" }} src="https://cdn-icons-png.flaticon.com/128/149/149852.png" alt="search" /></button>
                     </div>
                   </form>
                 </li>
 
-                <li className="nav-item col-2 col-md-1 col-lg-2 text-center mt-2 me-1">
-                  <div id="log-post-btns"> <button id="btn" onClick={() => navigate("/login")}><p>login</p></button>
-                    <button id="btn" type="menu" onClick={() => navigate("/postadd")}>post ads</button></div>
+                <li className="nav-item col-2 col-md-1 col-lg-3 text-center mt-2 me-1">
+                 
+                  <button id="lohbtn" onClick={() => navigate("/login")}><p>Login</p></button>
+                  <button id="btn" type="menu" onClick={() => navigate("/postadd")}>post ads</button>
 
                 </li>
 
@@ -183,7 +184,7 @@ export function Swati() {
 
     <div>
       <div className="row mt-4  fot-er" >
-        <div className="col-6 col-lg-2 mt-2 pe-4">
+        <div className="col-6 col-md-3 col-lg-2 mt-2 pe-4">
           <h5>POPULAR CATIGORIES</h5>
           <p className="fotter-anc">
             <a href="">cars</a><br />
@@ -193,7 +194,7 @@ export function Swati() {
           </p> <br />
         </div>
 
-        <div className="col-6 mt-2 ">
+        <div className="col-6 col-md-3 mt-2 ">
           <h5>TRANDING SEARCH</h5>
           <p className="fotter-anc">
             <a href="">Bikes</a><br />
@@ -204,7 +205,7 @@ export function Swati() {
         </div>
 
 
-        <div className="col-4 mt-2 me-2">
+        <div className="col-4 col-md-3 mt-2 me-2">
           <h5>ABOUT US</h5>
           <p className="fotter-anc">
             <a href="">About Dubizzle Group</a><br />

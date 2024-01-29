@@ -37,7 +37,7 @@ function Postadd() {
             };
       
             await postAdToDb(ad);
-        navigate('/Dashboard')
+        navigate('/')
       }catch(e){
         alert(e.message)
       }

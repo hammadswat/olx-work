@@ -13,9 +13,9 @@ function Login() {
             await login({ email, password })
 
             if(!email , !password){
-                navigate("/")
+                navigate("/Register")
             }
-            navigate("/Dashboard")
+            navigate("/")
         } catch (e) {
         alert(e.message)
         }
@@ -37,7 +37,7 @@ function Login() {
 
                 <button onClick={sinin} id="log-btn">login</button>
             </div>
-            <p className="suggestion2">Don't have an account.<span onClick={() => navigate("/")}>click here</span></p>
+            <p className="suggestion2">Don't have an account.<span onClick={() => navigate("/Register")}>click here</span></p>
         </div>
 
     </div>);
